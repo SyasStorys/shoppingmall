@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+.container {
+	min-height : 100%;
+	position: relative;
+}
+html {
+	width : 100%;
+} 
+ 
+
+ 
+/* 
+
+
+.img-fluid {
+	width : 100%;
+}
+
+
+
+footer {
+	margin : 50px 0;
+}
+
+.thumbnail {
+	padding : 0;
+}
+
+.content {
+	
+}
+
+.footer {
+	position: absolute;
+	bottom : 0;
+	height : 60px;	
+} */
