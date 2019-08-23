@@ -11,10 +11,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @Configuration
 @ComponentScan(basePackages= {"net.kzn.shoppingbackend.dto"})
+@EnableTransactionManagement
 public class HibernateConfig {
 
 	// Change the below based on the DBMS you choose
@@ -24,7 +26,7 @@ public class HibernateConfig {
 	private final static String DATABASE_USERNAME = "sa";
 	private final static String DATABASE_PASSWORD = "";
 	
-	@Bean
+	@Bean("dataSource")
 	private DataSource getDataSource() {
 		BasicDataSource dataSource = new BasicDataSource();
 		
