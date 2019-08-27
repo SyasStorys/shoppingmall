@@ -13,8 +13,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 public class Product {
 	
-	
-	
 	// private fields
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -12,37 +12,12 @@
 html {
 	width : 100%;
 } 
- 
-
- 
-/* 
-
-
-.img-fluid {
-	width : 100%;
-}
-
-
-
-footer {
-	margin : 50px 0;
-}
-
-.thumbnail {
-	padding : 0;
-}
-
-.content {
-	
-}
-
-.footer {
-	position: absolute;
-	bottom : 0;
-	height : 60px;	
-} */
 
 .dataTableImg {
 	width :100px;
 	height : 100px;
+}
+
+.help-block {
+	color: #ff0000;
 }
